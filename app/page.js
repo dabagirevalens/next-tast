@@ -59,9 +59,10 @@ export default function Home() {
             </div>
             <div className={styles.right}>
               <span>100+</span>
-              <input type="checkbox" checked />
+              <div className={styles.checked}>
+                <i className='bx bx-check' />
+              </div>
             </div>
-
           </div>
           <div className={styles.center}>
             <div className={styles.left}>
@@ -72,7 +73,9 @@ export default function Home() {
             </div>
             <div className={styles.right}>
               <span>100+</span>
-              <input type="checkbox" checked />
+              <div className={styles.checked}>
+                <i className='bx bx-check' />
+              </div>
             </div>
           </div>
           <div className={styles.item}>
@@ -84,7 +87,9 @@ export default function Home() {
             </div>
             <div className={styles.right}>
               <span>100+</span>
-              <input type="checkbox" checked />
+              <div className={styles.checked}>
+                <i className='bx bx-check' />
+              </div>
             </div>
           </div>
         </div>
